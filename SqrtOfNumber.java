@@ -44,7 +44,8 @@ public class SqrtOfNumber {
         return Math.round(high);
     }
     public static void main(String[] args) {
-        System.err.println(mySqrt(121));
+        System.err.println(mySqrt(121
+        ));
     }
 }
 
