@@ -1,6 +1,7 @@
 class PerfectNumber {
     public boolean checkPerfectNumber(int num) {
         int sum=0;
+        // complexity o(n/2)
         for(int i=1;i<=num/2;i++)
         {
             if(num%i==0)
@@ -11,7 +12,7 @@ class PerfectNumber {
         return sum==num;
     }
 
-
+   // conmnplexity o(sqrt(n))
     public static boolean checkPerfectNumber2(int num) {
         if(num<=1) return false;
         int sum=1;// 1 always a divisor
