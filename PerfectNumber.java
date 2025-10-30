@@ -1,7 +1,7 @@
 class PerfectNumber {
     public boolean checkPerfectNumber(int num) {
         int sum=0;
-        // complexity o(n/2)
+        // complexity o(n/2Arrenge)
         for(int i=1;i<=num/2;i++)
         {
             if(num%i==0)
