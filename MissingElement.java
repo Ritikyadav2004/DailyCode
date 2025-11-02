@@ -8,11 +8,11 @@ public class MissingElement {
     public List<Integer> findMissingElements(int[] nums) {
         List<Integer> mylist = new ArrayList<>();
         Arrays.sort(nums);
-        int len=nums.length;
+        int len=nums.length;     
         int start=nums[0];
         int end=nums[len-1];
         //end denotes maximum value 
-        int count= end-start+1;// itne number hone chiye list me actual me 
+        int count = end-start+1;// itne number hone chiye list me actual me 
         if(len<count)
         {
             for(int i=start+1;i<end;i++)
