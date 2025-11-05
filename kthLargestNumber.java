@@ -16,7 +16,7 @@ public class kthLargestNumber {
         for(int i=0;i<k-1;i++)
         {
            maxHeap.poll();
-        }
+        } 
         System.out.println(maxHeap.peek());
         
     }
