@@ -17,7 +17,7 @@ public class ReverseCharArray {
 
         for(char c:ch)
         {
-            System.out.print(c+" ");
+            System.out.print(c+" ");      
         }
     }
 }
