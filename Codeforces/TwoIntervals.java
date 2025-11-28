@@ -23,8 +23,31 @@
 // OutputCopy
 // 5 15
 // //
+
 package Codeforces;
+import java.util.Scanner;
 
 public class TwoIntervals {
-    
+
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int l1=sc.nextInt();
+        int r1=sc.nextInt();
+         
+        int l2=sc.nextInt();
+        int r2=sc.nextInt();
+        
+        int Start=Math.max(l1,l2);
+        int end=Math.min(r1,r2);
+        if(Start<=end)
+        {
+            System.out.println(Start+" "+end);
+        }
+        else
+        {
+            System.out.println(-1);
+        }
+        sc.close();
+    }
 }
