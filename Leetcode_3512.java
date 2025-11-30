@@ -18,5 +18,5 @@ public class Leetcode_3512 {
         int[] arr={3,9,7};
         System.out.println(minOperations(arr, 5));
     }
-
+ 
 }
