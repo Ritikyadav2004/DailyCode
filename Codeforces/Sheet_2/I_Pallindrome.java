@@ -1,4 +1,4 @@
-// package Codeforces.Sheet_2;
+package Codeforces.Sheet_2;
 import java.util.*;
 public class I_Pallindrome
 {
