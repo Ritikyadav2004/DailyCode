@@ -16,6 +16,8 @@ public class OriginalMultiplyTwo {
         return original;
     }
     public static void main(String[] args) {
-       
+       int nums[]={5,3,6,1,12};
+       int org=3;
+       System.out.println(findFinalValue(nums, org));
     }
 }
