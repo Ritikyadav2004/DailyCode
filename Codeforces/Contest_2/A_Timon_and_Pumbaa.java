@@ -10,7 +10,7 @@ public class A_Timon_and_Pumbaa {
         if(a-b>=0)
         {
             System.out.println(a-b);
-        }    
+        }
         else{
             System.out.println(0);
         }
