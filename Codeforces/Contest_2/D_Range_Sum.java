@@ -9,7 +9,7 @@ public class D_Range_Sum {
         while(n-- >0)
         {
             long a=sc.nextLong();
-            long b=sc.nextLong();
+            long b=sc.nextLong();      
             if (a > b) {
                 long temp = a;
                 a = b;
