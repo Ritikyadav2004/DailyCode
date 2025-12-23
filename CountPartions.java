@@ -9,7 +9,7 @@ public class CountPartions {
         {   
              sub1+=nums[i];
              sub2=0;
-            for(int j=i+1;j<nums.length;j++)
+            for(int j=i+1;j<nums.length;j++) 
             {
               sub2+=nums[j];
             }
