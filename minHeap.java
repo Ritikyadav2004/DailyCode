@@ -27,8 +27,8 @@ public class minHeap {
     if(min.size()>k) min.poll();// remobe the to elemnt whoes value is minimum
 
    }
-     System.out.println("2nd Largest elemnt is :"+min.peek());
+     System.out.println("2nd Largest element is :"+min.peek());
 
-
+         
     }
 }
