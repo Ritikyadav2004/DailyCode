@@ -12,14 +12,18 @@ public class E_Lowest_Number {
         for (int i = 0; i < n; i++) {
 
             arr[i]=sc.nextInt();
-            min=Math.min(min,arr[i]);
+           
             
+        }
+        for (int i = 0; i < arr.length; i++) {
+             min=Math.min(min,arr[i]);
         }
         for(int i=0;i<n;i++)
         {
             if(arr[i]==min)
             {
-                System.out.println(arr[i]+" "+i);
+                System.out.println(arr[i]+" "+(i+1));
+                break;
             }
         }
         sc.close();
