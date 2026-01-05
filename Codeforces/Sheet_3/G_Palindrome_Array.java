@@ -21,7 +21,7 @@ public class G_Palindrome_Array {
             }
         }
         if(ispallindrome)
-        {
+        {   
             System.out.println("YES");
         }
         else{
