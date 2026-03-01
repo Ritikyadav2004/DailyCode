@@ -5,17 +5,14 @@ import java.util.Scanner;
 public class K_Sum_Digits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n=sc.nextInt();
-        int arr[]=new int[n];
-        int  i=0;
         int sum=0;
-        while(n-- >0)
+        int n=sc.nextInt();
+        String s = sc.next();
+        for(int i=0;i<n;i++)
         {
-               arr[i]=sc.nextInt();
-               
-               sum+=arr[i];
-               i++;
+            sum+=s.charAt(i)-'0';
         }
+       
         System.out.println(sum);
         sc.close();
     }
