@@ -28,7 +28,7 @@ public class O_Fibonacci {
             b=c;
         }
         
-        if(a==1) System.out.println(a);
+        if(n==1) System.out.println(a);
         else System.out.println(b);
         sc.close();
     }
